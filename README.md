@@ -64,7 +64,7 @@ Looking to collaborate, get inspired, or just say hi? Find me across platforms!
   <a href="https://www.tiktok.com/@mmb_mushan?_t=ZS-8s6ZJDTI04l&_r=1" target="_blank">
     <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
   </a>
-  <a href="https://wa.me/+94754005152" target="_blank">
+  <a href="http://wa.me/94754005152" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
   </a>
 </div>
