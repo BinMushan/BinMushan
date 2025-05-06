@@ -1,6 +1,6 @@
 <div align="center">
   
-  <h1>🚀 <strong>Welcome to My Hub</strong> 🚀</h1>
+  <h1>🚀 <strong>Welcome to My GitHub</strong> 🚀</h1>
   <p>
     Empowering brands with <strong>creativity</strong>, <strong>innovation</strong>, and <strong>impactful designs</strong>.
   </p>
