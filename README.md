@@ -1,12 +1,8 @@
-Thanks for the update! Based on what I know about you so far, here's your fully customized and enhanced GitHub profile README. It includes your background in **ICT**, **DBMS**, **Excel**, and your focus on **beginner-friendly content**, alongside your creative journey with **graphic design and branding**. Let’s make it professional yet personal:
-
----
-
 <div align="center">
 
   <h1>🚀 <strong>Welcome to My GitHub</strong> 🚀</h1>
   <p>
-    Blending <strong>technology</strong>, <strong>creativity</strong>, and <strong>entrepreneurship</strong> to empower ideas and build powerful brands.
+    Blending <strong>technology</strong>, <strong>creativity</strong>, and <strong>design thinking</strong> to build, learn, and grow.
   </p>
 
 </div>
@@ -15,40 +11,45 @@ Thanks for the update! Based on what I know about you so far, here's your fully 
 
 ## 🌟 About Me
 
-✨ Hey there! I'm **Bin Mushan** — a passionate **ICT undergraduate**, self-driven **creative entrepreneur**, and founder of **B Create With Us**, where ideas come to life through impactful design.
+✨ Hey there! I'm **Bin Mushan** — an enthusiastic **ICT undergraduate**, beginner-friendly content creator, and passionate learner in the tech and design space.
 
-* 🎓 **Education**: BSc in Information and Communication Technology (ICT)
+* 🎓 **Education**: BSc in Information and Communication Technology
   — South Eastern University of Sri Lanka
-* 🧠 **Tech Enthusiast**: Exploring Database Management, Microsoft Excel, ER Models, and more
-* 🛠️ **Freelancing**: Founder of **B Create With Us** — A branding & design agency
-* 🎨 **Design & Creativity**: Passionate about branding, graphic design & visual storytelling
-* 🌱 **Learning**: DBMS | Excel | C Programming | Set Theory | Problem Solving
-* 🚀 **Vision**: To build multiple companies and become a symbol of creative & tech-driven success
+* 📚 **Current Focus**: DBMS, Microsoft Excel, Set Theory, C Programming
+* ✍️ **Note Sharing**: Creating simple and clear notes for beginners in ICT
+* 🎨 **Creative Skills**: Graphic design, visual content creation, branding basics
+* 🚀 **Goal**: To master both tech and creative skills and inspire others to learn
 
 ---
 
-## 🚀 Featured Projects
+## 🛠️ Tech Stack & Skills
 
-| **Project**                | **What It's About**                                         | **Status**    |
-| -------------------------- | ----------------------------------------------------------- | ------------- |
-| **B Create With Us**       | A creative agency for design, branding, and marketing.      | 🔥 Active     |
-| **Graphic Designer Site**  | Personal portfolio website to showcase my design journey.   | ✅ Completed   |
-| **DBMS Study Series**      | Beginner-friendly notes and diagrams for database learners. | ⏳ In Progress |
-| **Excel Practical Sheets** | ICT-based Excel tutorials and lab practice guides.          | 📈 Ongoing    |
+```txt
+🎨 Graphic Design | Branding | Social Media Visuals
+💻 Web Design: HTML, CSS, Bootstrap, SwiperJS
+🧰 Tools: Canva | MS Office (Advanced) | Visual Studio Code
+📚 Learning:  SQL | C Programming
+```
 
 ---
 
-## 📚 Notes & Learning Resources
+## 📘 Learning Resources I Create
 
-> Sharing beginner-friendly tech notes to help others grow.
-> Topics include **DBMS**, **Excel**, **ER Models**, **Set Theory**, and **Basic C Programming**.
-> Follow me for updates and helpful learning content!
+> Helping others understand ICT concepts through **simple explanations**, **examples**, and **visual aids**.
+> Topics include **Database Systems**, **ER Models**, **Set Theory**, **Excel Functions**, and more.
+
+---
+
+## 🎨 My Learning Philosophy
+
+> **"Simplicity is the ultimate sophistication." — Leonardo da Vinci**
+> I believe in learning by doing and explaining things in the most beginner-friendly way possible.
 
 ---
 
 ## 🌐 Let’s Connect!
 
-Love to **collaborate**, **learn**, or **inspire** others. Let’s stay connected!
+Whether you're here to learn, collaborate, or share ideas — you're always welcome!
 
 <div align="center">
   <a href="https://www.linkedin.com/in/binmushan" target="_blank">
@@ -71,6 +72,5 @@ Love to **collaborate**, **learn**, or **inspire** others. Let’s stay connecte
 ---
 
 <div align="center">
-  <h2>✨ Crafted by Bin Mushan ✨</h2>
+  <h2>✨ Create by Bin Mushan ✨</h2>
 </div>
-
