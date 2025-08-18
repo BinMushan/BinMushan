@@ -11,7 +11,7 @@
 
 ## 🌟 About Me
 
-✨ Hey there! I'm **Bin Mushan** — an enthusiastic **ICT undergraduate**, beginner-friendly content creator, and passionate learner in the tech and design space.
+✨ Hey there! I'm **Bin Mushan**  an  **undergraduate**, beginner-friendly content creator, and passionate learner in the tech and design space.
 
 * 🎓 **Education**: BSc in Information and Communication Technology
   — South Eastern University of Sri Lanka
@@ -26,9 +26,9 @@
 
 ```txt
 🎨 Graphic Design | Branding | Social Media Visuals
-💻 Web Design: HTML, CSS, Bootstrap, SwiperJS
+💻 Web Design: HTML, CSS, Bootstrap, js(basic), SQL, C Programming
 🧰 Tools: Canva | MS Office (Advanced) | Visual Studio Code
-📚 Learning:  SQL | C Programming
+📚 Learning:  Java, tailwindCSS, PS,
 ```
 
 ---
