@@ -58,19 +58,19 @@ If you believe I could be a good fit, I’d be happy to connect.
 <h3 align="center">Connect With Me</h3> 
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/binmushan" target="_blank">
+  <a href="https://www.linkedin.com/in/binmushan" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://www.instagram.com/mushan_mmb" target="_blank">
+  <a href="https://www.instagram.com/mushan_mmb" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
-  <a href="https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi" target="_blank">
+  <a href="https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
-  <a href="https://www.tiktok.com/@mmb_mushan" target="_blank">
+  <a href="https://www.tiktok.com/@mmb_mushan" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
   </a>
-  <a href="http://wa.me/94754005152" target="_blank">
+  <a href="http://wa.me/94754005152" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </div>
