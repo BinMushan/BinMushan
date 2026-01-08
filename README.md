@@ -1,76 +1,82 @@
 <div align="center">
 
-  <h1>🚀 <strong>Welcome to My GitHub</strong> 🚀</h1>
+  <h1><strong>Welcome to My GitHub</strong></h1>
   <p>
-    Blending <strong>technology</strong>, <strong>creativity</strong>, and <strong>design thinking</strong> to build, learn, and grow.
+    A learner focused on building skills through <strong>technology</strong>, <strong>creativity</strong>, and <strong>hands-on practice</strong>.
   </p>
 
 </div>
 
----
 
-## 🌟 About Me
+<h3>Profile Overview</h3>
 
-✨ Hey there! I'm **Bin Mushan**  an  **undergraduate**, beginner-friendly content creator, and passionate learner in the tech and design space.
+Hi, I'm **Bin Mushan**, an **ICT undergraduate** and **enthusiastic learner** actively exploring both technical and creative fields.  
+I use GitHub as a space to **learn publicly**, **practice consistently**, and **grow through real projects**.
 
-* 🎓 **Education**: BSc in Information and Communication Technology
-  — South Eastern University of Sri Lanka
-* 📚 **Current Focus**: DBMS, Microsoft Excel, Set Theory, C Programming
-* ✍️ **Note Sharing**: Creating simple and clear notes for beginners in ICT
-* 🎨 **Creative Skills**: Graphic design, visual content creation, branding basics
-* 🚀 **Goal**: To master both tech and creative skills and inspire others to learn
+I am open to **learning opportunities**, **internships**, **collaborative projects**, and **knowledge-sharing environments**.
 
----
 
-## 🛠️ Tech Stack & Skills
+<h3> Academic Background</h3>
 
-```txt
-🎨 Graphic Design | Branding | Social Media Visuals
-💻 Web Design: HTML, CSS, Bootstrap, js(basic), SQL, C Programming
-🧰 Tools: Canva | MS Office (Advanced) | Visual Studio Code
-📚 Learning:  Java, tailwindCSS, PS,
-```
+* **Degree**: BSc in Information and Communication Technology  
+* **University**: South Eastern University of Sri Lanka  
 
----
 
-## 📘 Learning Resources I Create
+<h3> Skills & Learning Areas</h3>
 
-> Helping others understand ICT concepts through **simple explanations**, **examples**, and **visual aids**.
-> Topics include **Database Systems**, **ER Models**, **Set Theory**, **Excel Functions**, and more.
+Web Basics: HTML | CSS | Bootstrap | JavaScript (Basic) | Tailwind CSS | PHP (Basic)
 
----
+Programming & Data: C Programming | SQL | Java 
 
-## 🎨 My Learning Philosophy
+Tools: Canva | MS Office (Advanced) | Visual Studio Code | IntelliJ IDEA | Illuslator (AI) | Photoshop (PS) 
 
-> **"Simplicity is the ultimate sophistication." — Leonardo da Vinci**
-> I believe in learning by doing and explaining things in the most beginner-friendly way possible.
+Currently Learning: JavaFX 
 
----
 
-## 🌐 Let’s Connect!
+<h3> What You’ll Find Here</h3>
 
-Whether you're here to learn, collaborate, or share ideas — you're always welcome!
+This GitHub profile includes:
+
+* Practice projects from my ICT coursework
+* Beginner-friendly projects
+* Experiments in own learnings
+* Learning-based creative and technical work
+
+My goal is to **learn by doing** and improve step by step.
+
+<h3>Open to Opportunities</h3>
+
+I am currently seeking:
+
+* Internship opportunities
+* Learning-based projects
+* Technical or creative collaborations
+* Mentorship and peer learning
+
+If you believe I could be a good fit, I’d be happy to connect.
+
+<h3 align="center">Connect With Me</h3> 
 
 <div align="center">
   <a href="https://www.linkedin.com/in/binmushan" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.instagram.com/mushan_mmb" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram">
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
   <a href="https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi" target="_blank">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook">
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
   </a>
   <a href="https://www.tiktok.com/@mmb_mushan" target="_blank">
-    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" alt="TikTok">
+    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
   </a>
   <a href="http://wa.me/94754005152" target="_blank">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
   </a>
 </div>
 
----
 
 <div align="center">
-  <h2>✨ Create by Bin Mushan ✨</h2>
+  <h6>Bin Mushan</h6>
+  <h6>ICT Undergraduate | Continuous Learner</h6>
 </div>
