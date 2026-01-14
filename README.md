@@ -77,6 +77,6 @@ If you believe I could be a good fit, I’d be happy to connect.
 
 
 <div align="center">
-  <h6>Bin Mushan</h6>
-  <h6>ICT Undergraduate | Continuous Learner</h6>
+  <h3>Bin Mushan</h3>
+  <h4>ICT Undergraduate | Continuous Learner</h4>
 </div>
