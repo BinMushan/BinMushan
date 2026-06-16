@@ -1,23 +1,19 @@
 """
-Generates a Matrix-style green digital-rain banner SVG for the README hero.
+Generates Matrix-style green digital-rain SVGs for the README.
 
-Output: assets/matrix-banner.svg
+Outputs:
+  assets/matrix-banner.svg  — tall hero with name + subtitle
+  assets/matrix-footer.svg  — slim footer with closing tagline
 
-The SVG uses native SMIL <animateTransform> so it animates as an <img src=...>
+The SVGs use native SMIL <animateTransform> so they animate as an <img src=...>
 inside GitHub README (no CSS-in-img required).
 """
 
 from __future__ import annotations
 
 import random
+from dataclasses import dataclass
 from pathlib import Path
-
-# ── canvas ──────────────────────────────────────────────────────────────
-W, H = 1280, 300
-COL_W = 16                  # column width in px
-CHAR_H = 16                 # vertical spacing between chars
-N_COLS = W // COL_W         # number of rain columns
-CHARS_PER_COL = 18          # how tall each rain "string" is
 
 GLYPHS = (
     "01アァカサタナハマヤャラワガザダバパイィキシチニヒミリヰギジヂビピウゥクスツヌ"
@@ -25,89 +21,184 @@ GLYPHS = (
     "01<>/\\|+-*=#@$%&{}[]"
 )
 
-random.seed(7)              # deterministic output
+
+@dataclass
+class Layout:
+    name: str
+    width: int
+    height: int
+    col_w: int
+    char_h: int
+    chars_per_col: int
+    title: str
+    title_size: int
+    title_letter_spacing: int
+    subtitle: str
+    subtitle_size: int
+    subtitle_letter_spacing: int
+    top_left_lines: tuple[str, ...]
+    top_right_lines: tuple[str, ...]
+    show_cursor: bool
+    seed: int
 
 
-def rand_string(n: int) -> list[str]:
-    return [random.choice(GLYPHS) for _ in range(n)]
+HERO = Layout(
+    name="matrix-banner.svg",
+    width=1280,
+    height=300,
+    col_w=16,
+    char_h=16,
+    chars_per_col=18,
+    title="BIN MUSHAN",
+    title_size=92,
+    title_letter_spacing=6,
+    subtitle="SOFTWARE DEV \u00a0\u00b7\u00a0 WEB \u00a0\u00b7\u00a0 DESIGN \u00a0\u00b7\u00a0 AUTOMATION",
+    subtitle_size=17,
+    subtitle_letter_spacing=4,
+    top_left_lines=(
+        "&gt; init binmushan.profile",
+        "&gt; status: online \u00b7 learning \u00b7 shipping",
+    ),
+    top_right_lines=(
+        "[ SEUSL // BSc ICT ]",
+        "v.2026 \u00b7 sri lanka",
+    ),
+    show_cursor=True,
+    seed=7,
+)
 
 
-def column(i: int) -> str:
-    x = i * COL_W + COL_W // 2
-    dur = round(random.uniform(3.6, 7.5), 2)         # fall speed
-    delay = round(random.uniform(-7.0, 0.0), 2)      # stagger start
-    chars = rand_string(CHARS_PER_COL)
-    start_y = -CHARS_PER_COL * CHAR_H
+FOOTER = Layout(
+    name="matrix-footer.svg",
+    width=1280,
+    height=160,
+    col_w=16,
+    char_h=15,
+    chars_per_col=10,
+    title="BUILD  \u00b7  DESIGN  \u00b7  AUTOMATE  \u00b7  LEAD",
+    title_size=32,
+    title_letter_spacing=4,
+    subtitle="one commit  \u00b7  one workflow  \u00b7  one team  \u2014  at a time",
+    subtitle_size=13,
+    subtitle_letter_spacing=2,
+    top_left_lines=("&gt; end_of_transmission",),
+    top_right_lines=("\u00a9 2026 binmushan",),
+    show_cursor=True,
+    seed=13,
+)
 
-    # build text glyphs inside the column; head glyph is bright
-    parts = []
-    for k, ch in enumerate(chars):
-        y = k * CHAR_H
-        if k == 0:
-            cls = "head"
-        elif k <= 2:
-            cls = "near"
-        else:
-            # fade older chars
-            cls = f"t{min(k, 9)}"
-        # escape XML
-        if ch == "<":
-            ch = "&lt;"
-        elif ch == ">":
-            ch = "&gt;"
-        elif ch == "&":
-            ch = "&amp;"
-        parts.append(f'<text x="0" y="{y}" class="{cls}">{ch}</text>')
 
-    glyphs = "".join(parts)
+def _esc(ch: str) -> str:
+    if ch == "<":
+        return "&lt;"
+    if ch == ">":
+        return "&gt;"
+    if ch == "&":
+        return "&amp;"
+    return ch
 
-    return (
-        f'<g class="rain" transform="translate({x},{start_y})">'
-        f"{glyphs}"
-        f'<animateTransform attributeName="transform" type="translate" '
-        f'from="{x},{start_y}" to="{x},{H + CHARS_PER_COL * CHAR_H}" '
-        f'dur="{dur}s" begin="{delay}s" repeatCount="indefinite"/>'
-        f"</g>"
+
+def rain_columns(layout: Layout) -> str:
+    rng = random.Random(layout.seed)
+    n_cols = layout.width // layout.col_w
+    start_y = -layout.chars_per_col * layout.char_h
+    end_y = layout.height + layout.chars_per_col * layout.char_h
+
+    out: list[str] = []
+    for i in range(n_cols):
+        x = i * layout.col_w + layout.col_w // 2
+        dur = round(rng.uniform(3.6, 7.5), 2)
+        delay = round(rng.uniform(-7.0, 0.0), 2)
+
+        parts: list[str] = []
+        for k in range(layout.chars_per_col):
+            ch = _esc(rng.choice(GLYPHS))
+            y = k * layout.char_h
+            if k == 0:
+                cls = "head"
+            elif k <= 2:
+                cls = "near"
+            else:
+                cls = f"t{min(k, 9)}"
+            parts.append(f'<text x="0" y="{y}" class="{cls}">{ch}</text>')
+
+        glyphs = "".join(parts)
+        out.append(
+            f'<g class="rain" transform="translate({x},{start_y})">'
+            f"{glyphs}"
+            f'<animateTransform attributeName="transform" type="translate" '
+            f'from="{x},{start_y}" to="{x},{end_y}" '
+            f'dur="{dur}s" begin="{delay}s" repeatCount="indefinite"/>'
+            f"</g>"
+        )
+    return "\n".join(out)
+
+
+def render(layout: Layout) -> str:
+    W, H = layout.width, layout.height
+    cx, cy = W / 2, H / 2
+
+    rain = rain_columns(layout)
+
+    tl_lines = "".join(
+        f'<text x="0" y="{i * 20}" {"opacity=\"0.7\"" if i > 0 else ""}>{line}</text>'
+        for i, line in enumerate(layout.top_left_lines)
+    )
+    tr_lines = "".join(
+        f'<text x="0" y="{i * 18}" {"opacity=\"0.65\"" if i > 0 else ""}>{line}</text>'
+        for i, line in enumerate(layout.top_right_lines)
     )
 
+    title_y = cy + (12 if layout.subtitle else 8)
+    subtitle_y = cy + 44 if layout.subtitle else None
 
-columns_svg = "\n".join(column(i) for i in range(N_COLS))
+    cursor = ""
+    if layout.show_cursor and subtitle_y is not None:
+        # rough subtitle pixel width approximation, monospace-ish
+        sub_chars = len(layout.subtitle)
+        sub_px = sub_chars * (layout.subtitle_size * 0.62 + layout.subtitle_letter_spacing)
+        cursor_x = cx + sub_px / 2 + 14
+        cursor = (
+            f'<rect x="{cursor_x:.1f}" y="{subtitle_y - 14}" width="10" height="16" class="cursor">'
+            f'<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" '
+            f'dur="1.1s" repeatCount="indefinite"/>'
+            f'</rect>'
+        )
 
+    subtitle_block = (
+        f'<text x="{cx}" y="{subtitle_y}" text-anchor="middle" class="sub">{layout.subtitle}</text>'
+        if layout.subtitle
+        else ""
+    )
 
-svg = f"""<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Bin Mushan — Software Dev, Web, Design, Automation">
+    return f"""<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="{layout.title}">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg-{layout.seed}" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"  stop-color="#020a05"/>
       <stop offset="55%" stop-color="#01140a"/>
       <stop offset="100%" stop-color="#000604"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
+    <radialGradient id="vignette-{layout.seed}" cx="50%" cy="50%" r="65%">
       <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
     </radialGradient>
-    <radialGradient id="centerShade" cx="50%" cy="50%" r="42%">
+    <radialGradient id="centerShade-{layout.seed}" cx="50%" cy="50%" r="42%">
       <stop offset="0%"  stop-color="#000000" stop-opacity="0.85"/>
       <stop offset="55%" stop-color="#000000" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="scanlines" width="3" height="3" patternUnits="userSpaceOnUse">
+    <pattern id="scanlines-{layout.seed}" width="3" height="3" patternUnits="userSpaceOnUse">
       <rect width="3" height="3" fill="transparent"/>
       <rect width="3" height="1" fill="#00ff88" opacity="0.04"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+    <filter id="glow-{layout.seed}" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
+    <filter id="softGlow-{layout.seed}" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="1.2" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style><![CDATA[
       .rain {{
@@ -115,7 +206,7 @@ svg = f"""<?xml version="1.0" encoding="UTF-8"?>
         font-size: 14px;
         font-weight: 600;
       }}
-      .head {{ fill: #d6ffe6; filter: url(#glow); }}
+      .head {{ fill: #d6ffe6; filter: url(#glow-{layout.seed}); }}
       .near {{ fill: #6cf3a4; }}
       .t3   {{ fill: #43d97f; }}
       .t4   {{ fill: #2dbe66; opacity: 0.92; }}
@@ -127,15 +218,15 @@ svg = f"""<?xml version="1.0" encoding="UTF-8"?>
       .title {{
         font-family: 'JetBrains Mono','Fira Code','Courier New',monospace;
         font-weight: 800;
-        font-size: 92px;
-        letter-spacing: 6px;
+        font-size: {layout.title_size}px;
+        letter-spacing: {layout.title_letter_spacing}px;
         fill: #ecffef;
       }}
       .sub {{
         font-family: 'JetBrains Mono','Fira Code','Courier New',monospace;
         font-weight: 500;
-        font-size: 17px;
-        letter-spacing: 4px;
+        font-size: {layout.subtitle_size}px;
+        letter-spacing: {layout.subtitle_letter_spacing}px;
         fill: #8af3ad;
       }}
       .tag {{
@@ -150,32 +241,24 @@ svg = f"""<?xml version="1.0" encoding="UTF-8"?>
     ]]></style>
   </defs>
 
-  <!-- background -->
-  <rect width="{W}" height="{H}" fill="url(#bg)"/>
+  <rect width="{W}" height="{H}" fill="url(#bg-{layout.seed})"/>
 
-  <!-- digital rain -->
   <g>
-{columns_svg}
+{rain}
   </g>
 
-  <!-- vignette + center shade so the title stays readable -->
-  <rect width="{W}" height="{H}" fill="url(#vignette)"/>
-  <rect width="{W}" height="{H}" fill="url(#centerShade)"/>
-  <rect width="{W}" height="{H}" fill="url(#scanlines)"/>
+  <rect width="{W}" height="{H}" fill="url(#vignette-{layout.seed})"/>
+  <rect width="{W}" height="{H}" fill="url(#centerShade-{layout.seed})"/>
+  <rect width="{W}" height="{H}" fill="url(#scanlines-{layout.seed})"/>
 
-  <!-- top-left terminal tag -->
   <g transform="translate(44, 44)" class="tag tag-lg">
-    <text x="0" y="0">&gt; init binmushan.profile</text>
-    <text x="0" y="20" opacity="0.7">&gt; status: online &#183; learning &#183; shipping</text>
+    {tl_lines}
   </g>
 
-  <!-- top-right system tag -->
   <g transform="translate({W-44}, 44)" class="tag" text-anchor="end">
-    <text x="0" y="0">[ SEUSL // BSc ICT ]</text>
-    <text x="0" y="18" opacity="0.65">v.2026 &#183; sri lanka</text>
+    {tr_lines}
   </g>
 
-  <!-- corner brackets -->
   <g stroke="#5fe48f" stroke-width="1.6" fill="none" opacity="0.6">
     <path d="M28 28 L28 62 M28 28 L62 28"/>
     <path d="M{W-28} 28 L{W-28} 62 M{W-28} 28 L{W-62} 28"/>
@@ -183,19 +266,22 @@ svg = f"""<?xml version="1.0" encoding="UTF-8"?>
     <path d="M{W-28} {H-28} L{W-28} {H-62} M{W-28} {H-28} L{W-62} {H-28}"/>
   </g>
 
-  <!-- title -->
-  <g filter="url(#softGlow)">
-    <text x="{W/2}" y="{H/2 + 12}" text-anchor="middle" class="title">BIN MUSHAN</text>
+  <g filter="url(#softGlow-{layout.seed})">
+    <text x="{cx}" y="{title_y}" text-anchor="middle" class="title">{layout.title}</text>
   </g>
-  <text x="{W/2}" y="{H/2 + 56}" text-anchor="middle" class="sub">SOFTWARE DEV &#160;&#183;&#160; WEB &#160;&#183;&#160; DESIGN &#160;&#183;&#160; AUTOMATION</text>
-
-  <!-- blinking cursor next to subtitle -->
-  <rect x="{W/2 + 372}" y="{H/2 + 42}" width="12" height="18" class="cursor">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  {subtitle_block}
+  {cursor}
 </svg>
 """
 
-out = Path(__file__).parent / "matrix-banner.svg"
-out.write_text(svg, encoding="utf-8")
-print(f"wrote {out}  ({out.stat().st_size} bytes, {N_COLS} columns)")
+
+def main() -> None:
+    out_dir = Path(__file__).parent
+    for layout in (HERO, FOOTER):
+        path = out_dir / layout.name
+        path.write_text(render(layout), encoding="utf-8")
+        print(f"wrote {path}  ({path.stat().st_size:,} bytes)")
+
+
+if __name__ == "__main__":
+    main()

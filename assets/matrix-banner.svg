@@ -1,37 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Bin Mushan — Software Dev, Web, Design, Automation">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" width="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="BIN MUSHAN">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg-7" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%"  stop-color="#020a05"/>
       <stop offset="55%" stop-color="#01140a"/>
       <stop offset="100%" stop-color="#000604"/>
     </linearGradient>
-    <radialGradient id="vignette" cx="50%" cy="50%" r="65%">
+    <radialGradient id="vignette-7" cx="50%" cy="50%" r="65%">
       <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0.85"/>
     </radialGradient>
-    <radialGradient id="centerShade" cx="50%" cy="50%" r="42%">
+    <radialGradient id="centerShade-7" cx="50%" cy="50%" r="42%">
       <stop offset="0%"  stop-color="#000000" stop-opacity="0.85"/>
       <stop offset="55%" stop-color="#000000" stop-opacity="0.55"/>
       <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="scanlines" width="3" height="3" patternUnits="userSpaceOnUse">
+    <pattern id="scanlines-7" width="3" height="3" patternUnits="userSpaceOnUse">
       <rect width="3" height="3" fill="transparent"/>
       <rect width="3" height="1" fill="#00ff88" opacity="0.04"/>
     </pattern>
-    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+    <filter id="glow-7" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="2.4" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="softGlow" x="-20%" y="-50%" width="140%" height="200%">
+    <filter id="softGlow-7" x="-20%" y="-50%" width="140%" height="200%">
       <feGaussianBlur stdDeviation="1.2" result="b"/>
-      <feMerge>
-        <feMergeNode in="b"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <style><![CDATA[
       .rain {
@@ -39,7 +33,7 @@
         font-size: 14px;
         font-weight: 600;
       }
-      .head { fill: #d6ffe6; filter: url(#glow); }
+      .head { fill: #d6ffe6; filter: url(#glow-7); }
       .near { fill: #6cf3a4; }
       .t3   { fill: #43d97f; }
       .t4   { fill: #2dbe66; opacity: 0.92; }
@@ -74,10 +68,8 @@
     ]]></style>
   </defs>
 
-  <!-- background -->
-  <rect width="1280" height="300" fill="url(#bg)"/>
+  <rect width="1280" height="300" fill="url(#bg-7)"/>
 
-  <!-- digital rain -->
   <g>
 <g class="rain" transform="translate(8,-288)"><text x="0" y="0" class="head">/</text><text x="0" y="16" class="near">タ</text><text x="0" y="32" class="near">マ</text><text x="0" y="48" class="t3">ソ</text><text x="0" y="64" class="t4">ラ</text><text x="0" y="80" class="t5">ズ</text><text x="0" y="96" class="t6">ョ</text><text x="0" y="112" class="t7">ナ</text><text x="0" y="128" class="t8">ペ</text><text x="0" y="144" class="t9">リ</text><text x="0" y="160" class="t9">カ</text><text x="0" y="176" class="t9">ャ</text><text x="0" y="192" class="t9">ネ</text><text x="0" y="208" class="t9">セ</text><text x="0" y="224" class="t9">ハ</text><text x="0" y="240" class="t9">ジ</text><text x="0" y="256" class="t9">ャ</text><text x="0" y="272" class="t9">ノ</text><animateTransform attributeName="transform" type="translate" from="8,-288" to="8,588" dur="4.86s" begin="-5.94s" repeatCount="indefinite"/></g>
 <g class="rain" transform="translate(24,-288)"><text x="0" y="0" class="head">ザ</text><text x="0" y="16" class="near">ヰ</text><text x="0" y="32" class="near">1</text><text x="0" y="48" class="t3">1</text><text x="0" y="64" class="t4">ョ</text><text x="0" y="80" class="t5">ナ</text><text x="0" y="96" class="t6">ヨ</text><text x="0" y="112" class="t7">ョ</text><text x="0" y="128" class="t8">エ</text><text x="0" y="144" class="t9">タ</text><text x="0" y="160" class="t9">ヰ</text><text x="0" y="176" class="t9">サ</text><text x="0" y="192" class="t9">ホ</text><text x="0" y="208" class="t9">バ</text><text x="0" y="224" class="t9">ス</text><text x="0" y="240" class="t9">セ</text><text x="0" y="256" class="t9">パ</text><text x="0" y="272" class="t9">ト</text><animateTransform attributeName="transform" type="translate" from="24,-288" to="24,588" dur="5.26s" begin="-1.21s" repeatCount="indefinite"/></g>
@@ -161,24 +153,18 @@
 <g class="rain" transform="translate(1272,-288)"><text x="0" y="0" class="head">サ</text><text x="0" y="16" class="near">ア</text><text x="0" y="32" class="near">タ</text><text x="0" y="48" class="t3">0</text><text x="0" y="64" class="t4">モ</text><text x="0" y="80" class="t5">グ</text><text x="0" y="96" class="t6">ツ</text><text x="0" y="112" class="t7">ワ</text><text x="0" y="128" class="t8">ォ</text><text x="0" y="144" class="t9">グ</text><text x="0" y="160" class="t9">ソ</text><text x="0" y="176" class="t9">ヰ</text><text x="0" y="192" class="t9">ケ</text><text x="0" y="208" class="t9">ョ</text><text x="0" y="224" class="t9">ツ</text><text x="0" y="240" class="t9">ロ</text><text x="0" y="256" class="t9">バ</text><text x="0" y="272" class="t9">ミ</text><animateTransform attributeName="transform" type="translate" from="1272,-288" to="1272,588" dur="5.5s" begin="-2.71s" repeatCount="indefinite"/></g>
   </g>
 
-  <!-- vignette + center shade so the title stays readable -->
-  <rect width="1280" height="300" fill="url(#vignette)"/>
-  <rect width="1280" height="300" fill="url(#centerShade)"/>
-  <rect width="1280" height="300" fill="url(#scanlines)"/>
+  <rect width="1280" height="300" fill="url(#vignette-7)"/>
+  <rect width="1280" height="300" fill="url(#centerShade-7)"/>
+  <rect width="1280" height="300" fill="url(#scanlines-7)"/>
 
-  <!-- top-left terminal tag -->
   <g transform="translate(44, 44)" class="tag tag-lg">
-    <text x="0" y="0">&gt; init binmushan.profile</text>
-    <text x="0" y="20" opacity="0.7">&gt; status: online &#183; learning &#183; shipping</text>
+    <text x="0" y="0" >&gt; init binmushan.profile</text><text x="0" y="20" opacity="0.7">&gt; status: online · learning · shipping</text>
   </g>
 
-  <!-- top-right system tag -->
   <g transform="translate(1236, 44)" class="tag" text-anchor="end">
-    <text x="0" y="0">[ SEUSL // BSc ICT ]</text>
-    <text x="0" y="18" opacity="0.65">v.2026 &#183; sri lanka</text>
+    <text x="0" y="0" >[ SEUSL // BSc ICT ]</text><text x="0" y="18" opacity="0.65">v.2026 · sri lanka</text>
   </g>
 
-  <!-- corner brackets -->
   <g stroke="#5fe48f" stroke-width="1.6" fill="none" opacity="0.6">
     <path d="M28 28 L28 62 M28 28 L62 28"/>
     <path d="M1252 28 L1252 62 M1252 28 L1218 28"/>
@@ -186,14 +172,9 @@
     <path d="M1252 272 L1252 238 M1252 272 L1218 272"/>
   </g>
 
-  <!-- title -->
-  <g filter="url(#softGlow)">
+  <g filter="url(#softGlow-7)">
     <text x="640.0" y="162.0" text-anchor="middle" class="title">BIN MUSHAN</text>
   </g>
-  <text x="640.0" y="206.0" text-anchor="middle" class="sub">SOFTWARE DEV &#160;&#183;&#160; WEB &#160;&#183;&#160; DESIGN &#160;&#183;&#160; AUTOMATION</text>
-
-  <!-- blinking cursor next to subtitle -->
-  <rect x="1012.0" y="192.0" width="12" height="18" class="cursor">
-    <animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/>
-  </rect>
+  <text x="640.0" y="194.0" text-anchor="middle" class="sub">SOFTWARE DEV  ·  WEB  ·  DESIGN  ·  AUTOMATION</text>
+  <rect x="988.4" y="180.0" width="10" height="16" class="cursor"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" repeatCount="indefinite"/></rect>
 </svg>

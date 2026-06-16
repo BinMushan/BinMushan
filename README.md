@@ -7,14 +7,14 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=680&lines=Developer+%E2%80%A2+Designer+%E2%80%A2+Automation+%E2%80%A2+Team+Lead;Building+thoughtful+products+%E2%80%94+code%2C+design+%26+automation;Software+Dev+%C2%B7+Web+%C2%B7+UI%2FUX+%C2%B7+n8n+workflows;BSc+ICT+%40+South+Eastern+University+of+Sri+Lanka;Learning+publicly+%E2%80%94+one+commit%2C+one+workflow+at+a+time" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=22C55E&center=true&vCenter=true&width=680&lines=Developer+%E2%80%A2+Designer+%E2%80%A2+Automation+%E2%80%A2+Team+Lead;Building+thoughtful+products+%E2%80%94+code%2C+design+%26+automation;Software+Dev+%C2%B7+Web+%C2%B7+UI%2FUX+%C2%B7+n8n+workflows;BSc+ICT+%40+South+Eastern+University+of+Sri+Lanka;Learning+publicly+%E2%80%94+one+commit%2C+one+workflow+at+a+time" alt="typing" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=binmushan&label=Profile%20views&color=8B5CF6&style=flat-square" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=binmushan&label=Profile%20views&color=22C55E&style=flat-square" alt="profile views" />
 &nbsp;
-<img src="https://img.shields.io/github/followers/binmushan?label=Followers&style=flat-square&color=8B5CF6" alt="followers" />
+<img src="https://img.shields.io/github/followers/binmushan?label=Followers&style=flat-square&color=22C55E" alt="followers" />
 &nbsp;
 <img src="https://img.shields.io/badge/Based%20in-Sri%20Lanka-FFCD00?style=flat-square" alt="location" />
 &nbsp;
@@ -178,7 +178,7 @@ mindmap
 </td>
 <td width="50%" valign="top">
 
-<h3 align="center">🎨 &nbsp; Designer &amp; Lead</h3>
+<h3 align="center">🎨 &nbsp; Designer</h3>
 
 <p align="center"><sub><b>UI &amp; Design</b></sub></p>
 <p align="center">
@@ -189,17 +189,9 @@ mindmap
 <p align="center">
   <img src="https://img.shields.io/badge/MS_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white" height="28" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Notion-6366F1?style=flat-square&logo=notion&logoColor=white" height="28" />
+  <img src="https://img.shields.io/badge/Notion-10B981?style=flat-square&logo=notion&logoColor=white" height="28" />
 </p>
 
-<p align="center"><sub><b>Leadership &amp; Soft Skills</b></sub></p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Team_Leadership-8B5CF6?style=flat-square" />
-  <img src="https://img.shields.io/badge/Event_Organizing-6366F1?style=flat-square" />
-  <br/>
-  <img src="https://img.shields.io/badge/Communication-06B6D4?style=flat-square" />
-  <img src="https://img.shields.io/badge/Collaboration-8B5CF6?style=flat-square" />
-</p>
 
 </td>
 </tr>
@@ -232,14 +224,14 @@ mindmap
 
 <a href="https://github.com/binmushan">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=06B6D4&text_color=CBD5E1&bg_color=00000000" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=06B6D4&text_color=475569&bg_color=00000000" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=22C55E&icon_color=34D399&text_color=CBD5E1&bg_color=00000000" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=22C55E&icon_color=34D399&text_color=475569&bg_color=00000000" />
   </picture>
 </a>
 <a href="https://github.com/binmushan">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=CBD5E1&bg_color=00000000" />
-    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=475569&bg_color=00000000" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=22C55E&text_color=CBD5E1&bg_color=00000000" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=22C55E&text_color=475569&bg_color=00000000" />
   </picture>
 </a>
 
@@ -247,8 +239,8 @@ mindmap
 
 <a href="https://github.com/binmushan">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=F1F5F9&sideNums=E2E8F0" />
-    <img src="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=1E293B" alt="streak" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=22C55E&fire=34D399&currStreakLabel=22C55E&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=F1F5F9&sideNums=E2E8F0" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=22C55E&fire=34D399&currStreakLabel=22C55E&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=1E293B" alt="streak" />
   </picture>
 </a>
 
@@ -256,8 +248,8 @@ mindmap
 
 <a href="https://github.com/binmushan">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=CBD5E1&line=8B5CF6&point=06B6D4&area=true&hide_border=true" />
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=475569&line=8B5CF6&point=06B6D4&area=true&hide_border=true" width="98%" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=CBD5E1&line=22C55E&point=34D399&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=475569&line=22C55E&point=34D399&area=true&hide_border=true" width="98%" />
   </picture>
 </a>
 
@@ -388,7 +380,9 @@ Strong collaboration and clear communication matter **just as much** as technica
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:06B6D4,50:6366F1,100:8B5CF6&height=120&section=footer&text=build%20%C2%B7%20design%20%C2%B7%20automate%20%C2%B7%20lead&fontSize=18&fontColor=ffffff&fontAlignY=68&desc=one%20commit%20%C2%B7%20one%20workflow%20%C2%B7%20one%20team%20at%20a%20time&descAlignY=88&descSize=11" width="100%" />
+<img src="./assets/matrix-footer.svg" width="100%" alt="build · design · automate · lead" />
+
+<br/>
 
 <sub><strong>Bin Mushan</strong> &nbsp;·&nbsp; BSc (Hons) ICT &nbsp;·&nbsp; South Eastern University of Sri Lanka</sub>
 
