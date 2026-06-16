@@ -62,59 +62,6 @@ fun_fact:    "I ship code, design experiences, and automate the boring parts."
 </tr>
 </table>
 
-<br/>
-
-<!-- ───────────────────────────  CURRENTLY (signature touch)  ─────────────────────────── -->
-
-## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="22" /> &nbsp; Currently
-
-<table width="100%">
-<tr>
-<td align="center" width="25%">
-
-#### 🎯
-<sub><b>Building</b></sub>
-<br/>
-<sub>Software, web apps</sub>
-<br/>
-<sub>& automation flows</sub>
-
-</td>
-<td align="center" width="25%">
-
-#### ⚡
-<sub><b>Automating</b></sub>
-<br/>
-<sub>Workflows with</sub>
-<br/>
-<sub>n8n &amp; GitHub Actions</sub>
-
-</td>
-<td align="center" width="25%">
-
-#### 🌱
-<sub><b>Learning</b></sub>
-<br/>
-<sub>JavaFX · Supabase</sub>
-<br/>
-<sub>APIs · n8n</sub>
-
-</td>
-<td align="center" width="25%">
-
-#### 💭
-<sub><b>Mantra</b></sub>
-<br/>
-<sub><i>"Make it work,</i></sub>
-<br/>
-<sub><i>beautiful & autonomous."</i></sub>
-
-</td>
-</tr>
-</table>
-
-<br/>
-
 <!-- ───────────────────────────  THE MAP OF ME (mindmap)  ─────────────────────────── -->
 
 ## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="24" /> &nbsp; The Map of Me
