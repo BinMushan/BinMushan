@@ -1,20 +1,20 @@
 <!-- ───────────────────────────  HERO  ─────────────────────────── -->
 
 <a href="https://github.com/binmushan">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0A66C2,100:6366F1&height=200&section=header&text=Bin%20Mushan&fontSize=60&fontColor=ffffff&fontAlignY=38&desc=ICT%20Undergraduate%20·%20Developer%20·%20Designer&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="header" />
+  <img src="./assets/matrix-banner.svg" width="100%" alt="Bin Mushan — Software Dev · Web · Design · Automation" />
 </a>
 
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=0A66C2&center=true&vCenter=true&width=620&lines=Developer+%E2%80%A2+Designer+%E2%80%A2+Team+Lead;Building+thoughtful+products+with+code+%26+design;BSc+ICT+%40+South+Eastern+University+of+Sri+Lanka;Learning+publicly+%E2%80%94+one+commit+at+a+time" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=8B5CF6&center=true&vCenter=true&width=680&lines=Developer+%E2%80%A2+Designer+%E2%80%A2+Automation+%E2%80%A2+Team+Lead;Building+thoughtful+products+%E2%80%94+code%2C+design+%26+automation;Software+Dev+%C2%B7+Web+%C2%B7+UI%2FUX+%C2%B7+n8n+workflows;BSc+ICT+%40+South+Eastern+University+of+Sri+Lanka;Learning+publicly+%E2%80%94+one+commit%2C+one+workflow+at+a+time" alt="typing" />
 </a>
 
 <br/>
 
-<img src="https://komarev.com/ghpvc/?username=binmushan&label=Profile%20views&color=0A66C2&style=flat-square" alt="profile views" />
+<img src="https://komarev.com/ghpvc/?username=binmushan&label=Profile%20views&color=8B5CF6&style=flat-square" alt="profile views" />
 &nbsp;
-<img src="https://img.shields.io/github/followers/binmushan?label=Followers&style=flat-square&color=0A66C2" alt="followers" />
+<img src="https://img.shields.io/github/followers/binmushan?label=Followers&style=flat-square&color=8B5CF6" alt="followers" />
 &nbsp;
 <img src="https://img.shields.io/badge/Based%20in-Sri%20Lanka-FFCD00?style=flat-square" alt="location" />
 &nbsp;
@@ -22,11 +22,9 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/binmushan" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="http://wa.me/94754005152" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
-<a href="https://www.instagram.com/mushan_mmb" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" /></a>
-<a href="https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi" target="_blank"><img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" /></a>
-<a href="https://www.tiktok.com/@mmb_mushan" target="_blank"><img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" /></a>
+<a href="https://www.linkedin.com/in/binmushan" target="_blank">
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0A66C2" alt="LinkedIn" />
+</a>
 
 </div>
 
@@ -40,18 +38,19 @@
 <tr>
 <td valign="top" width="62%">
 
-I am a **BSc ICT undergraduate** who works at the intersection of **development and design** — writing code while shaping the experience around it.
+I am a **BSc ICT undergraduate** working at the intersection of **software development, web, design, and automation** — I write code, shape the experience around it, and connect the dots with workflows that let products ship faster.
 
-Alongside technical work, I take on **team leadership** roles and contribute to **organizing events** in both academic and community settings. I believe strong outcomes come from people who can **build, lead, and communicate** effectively.
+Alongside technical work, I take on **team leadership** roles and contribute to **organizing events** in academic and community settings. I believe strong outcomes come from people who can **build, lead, automate, and communicate**.
 
-I use this profile to **practice consistently, learn publicly, and document growth** through real projects.
+I use this profile to **practice consistently, learn publicly, and document growth** — across software, web, design, and automation.
 
 ```yaml
 name:        Bin Mushan
 education:   BSc (Hons) ICT — South Eastern University of Sri Lanka
-focus:       Web Development · UI/UX · Team Leadership
-learning:    JavaFX · Supabase · API Integration
-fun_fact:    "I ship code and host events — both rely on good UX."
+focus:       Software Dev · Web · UI/UX · Automation · Team Leadership
+learning:    JavaFX · Supabase · API Integration · n8n Workflows
+toolkit:     code · design · automate · ship
+fun_fact:    "I ship code, design experiences, and automate the boring parts."
 ```
 
 </td>
@@ -65,6 +64,85 @@ fun_fact:    "I ship code and host events — both rely on good UX."
 
 <br/>
 
+<!-- ───────────────────────────  CURRENTLY (signature touch)  ─────────────────────────── -->
+
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sparkles.png" width="22" /> &nbsp; Currently
+
+<table width="100%">
+<tr>
+<td align="center" width="25%">
+
+#### 🎯
+<sub><b>Building</b></sub>
+<br/>
+<sub>Software, web apps</sub>
+<br/>
+<sub>& automation flows</sub>
+
+</td>
+<td align="center" width="25%">
+
+#### ⚡
+<sub><b>Automating</b></sub>
+<br/>
+<sub>Workflows with</sub>
+<br/>
+<sub>n8n &amp; GitHub Actions</sub>
+
+</td>
+<td align="center" width="25%">
+
+#### 🌱
+<sub><b>Learning</b></sub>
+<br/>
+<sub>JavaFX · Supabase</sub>
+<br/>
+<sub>APIs · n8n</sub>
+
+</td>
+<td align="center" width="25%">
+
+#### 💭
+<sub><b>Mantra</b></sub>
+<br/>
+<sub><i>"Make it work,</i></sub>
+<br/>
+<sub><i>beautiful & autonomous."</i></sub>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<!-- ───────────────────────────  THE MAP OF ME (mindmap)  ─────────────────────────── -->
+
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Compass.png" width="24" /> &nbsp; The Map of Me
+
+> Not a list of buzzwords — a live map of how the pieces of my craft connect.
+
+```mermaid
+mindmap
+  root((Bin Mushan))
+    🧠 Engineer
+      Software Development
+      Web Development
+      APIs and Backends
+    ⚡ Automator
+      n8n Workflows
+      GitHub Actions
+      API Integrations
+    🎨 Designer
+      UI / UX
+      Visual and Branding
+    🤝 Leader
+      Teams
+      Events
+      Community
+```
+
+<br/>
+
 <!-- ───────────────────────────  SKILLS  ─────────────────────────── -->
 
 ## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="24" /> &nbsp; Tech Stack
@@ -73,7 +151,7 @@ fun_fact:    "I ship code and host events — both rely on good UX."
 <tr>
 <td width="50%" valign="top">
 
-<h3 align="center">💻 &nbsp; Developer</h3>
+<h3 align="center">💻 &nbsp; Engineer</h3>
 
 <p align="center"><sub><b>Web Development</b></sub></p>
 <p align="center">
@@ -84,7 +162,7 @@ fun_fact:    "I ship code and host events — both rely on good UX."
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,c,mysql" />
   &nbsp;
-  <img src="https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=java&logoColor=white" height="28" />
 </p>
 
 <p align="center"><sub><b>Backend &amp; Services</b></sub></p>
@@ -94,9 +172,7 @@ fun_fact:    "I ship code and host events — both rely on good UX."
 
 <p align="center"><sub><b>Developer Tools</b></sub></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=vscode,idea,git,github" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Cursor-000000?style=flat-square&logo=cursor&logoColor=white" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=vscode,idea,git,github,cursor" />
 </p>
 
 </td>
@@ -106,62 +182,83 @@ fun_fact:    "I ship code and host events — both rely on good UX."
 
 <p align="center"><sub><b>UI &amp; Design</b></sub></p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=figma,ps,ai" />
-  &nbsp;
-  <img src="https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=figma,ps,ai,canva" />
 </p>
 
 <p align="center"><sub><b>Productivity</b></sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/MS_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white" />
+  <img src="https://img.shields.io/badge/MS_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white" height="28" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=notion&logoColor=white" />
+  <img src="https://img.shields.io/badge/Notion-6366F1?style=flat-square&logo=notion&logoColor=white" height="28" />
 </p>
 
 <p align="center"><sub><b>Leadership &amp; Soft Skills</b></sub></p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Team_Leadership-4A5568?style=flat-square" />
-  <img src="https://img.shields.io/badge/Event_Organizing-4A5568?style=flat-square" />
+  <img src="https://img.shields.io/badge/Team_Leadership-8B5CF6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Event_Organizing-6366F1?style=flat-square" />
   <br/>
-  <img src="https://img.shields.io/badge/Communication-4A5568?style=flat-square" />
-  <img src="https://img.shields.io/badge/Collaboration-4A5568?style=flat-square" />
-</p>
-
-<br/>
-
-<p align="center">
-  <sub>📚 &nbsp; Currently learning &nbsp;→&nbsp; <b>JavaFX</b> &nbsp;·&nbsp; <b>Supabase</b> &nbsp;·&nbsp; <b>API Integration</b></sub>
+  <img src="https://img.shields.io/badge/Communication-06B6D4?style=flat-square" />
+  <img src="https://img.shields.io/badge/Collaboration-8B5CF6?style=flat-square" />
 </p>
 
 </td>
 </tr>
 </table>
 
+<!-- Full-width Automation strip -->
+<div align="center">
+
 <br/>
 
-<!-- ───────────────────────────  GITHUB STATS  ─────────────────────────── -->
+<h3>⚡ &nbsp; Automation &amp; Workflows</h3>
+
+<sub><i>Connecting tools, APIs, and people — so the repetitive parts run themselves.</i></sub>
+
+<p>
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=n8n,githubactions,postman,supabase" />
+</p>
+
+<sub>📚 &nbsp; Currently learning &nbsp;→&nbsp; <b>JavaFX</b> &nbsp;·&nbsp; <b>Supabase</b> &nbsp;·&nbsp; <b>API Integration</b> &nbsp;·&nbsp; <b>n8n Workflows</b></sub>
+
+</div>
+
+<br/>
+
+<!-- ───────────────────────────  GITHUB STATS (theme-adaptive)  ─────────────────────────── -->
 
 ## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Bar%20Chart.png" width="24" /> &nbsp; GitHub Stats
 
 <div align="center">
 
 <a href="https://github.com/binmushan">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=0A66C2&icon_color=0A66C2&text_color=475569&bg_color=00000000" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=06B6D4&text_color=CBD5E1&bg_color=00000000" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=binmushan&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=8B5CF6&icon_color=06B6D4&text_color=475569&bg_color=00000000" />
+  </picture>
 </a>
 <a href="https://github.com/binmushan">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=0A66C2&text_color=475569&bg_color=00000000" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=CBD5E1&bg_color=00000000" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=binmushan&layout=compact&langs_count=8&hide_border=true&title_color=8B5CF6&text_color=475569&bg_color=00000000" />
+  </picture>
 </a>
 
 <br/>
 
 <a href="https://github.com/binmushan">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=0A66C2&fire=0A66C2&currStreakLabel=0A66C2&sideLabels=475569&dates=475569&currStreakNum=0F172A&sideNums=0F172A" alt="streak" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=CBD5E1&dates=94A3B8&currStreakNum=F1F5F9&sideNums=E2E8F0" />
+    <img src="https://github-readme-streak-stats.herokuapp.com?user=binmushan&hide_border=true&background=00000000&ring=8B5CF6&fire=06B6D4&currStreakLabel=8B5CF6&sideLabels=475569&dates=64748B&currStreakNum=0F172A&sideNums=1E293B" alt="streak" />
+  </picture>
 </a>
 
 <br/><br/>
 
 <a href="https://github.com/binmushan">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=0A66C2&line=0A66C2&point=6366F1&area=true&hide_border=true" width="98%" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=CBD5E1&line=8B5CF6&point=06B6D4&area=true&hide_border=true" />
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=binmushan&bg_color=00000000&color=475569&line=8B5CF6&point=06B6D4&area=true&hide_border=true" width="98%" />
+  </picture>
 </a>
 
 </div>
@@ -214,11 +311,26 @@ Strong collaboration and clear communication matter **just as much** as technica
 ```bash
 📦 binmushan/
  ┣━ 🎓  university-projects/    # ICT coursework & academic builds
+ ┣━ 💾  software-builds/        # Standalone software & desktop apps (JavaFX, Java)
  ┣━ 🌐  web-development/        # Practice builds & frontend experiments
  ┣━ 🎨  design-experiments/     # Creative work, UI prototypes, brand pieces
  ┣━ 🔌  api-integrations/       # Backend explorations & integrations
+ ┣━ ⚡  automation-flows/       # n8n workflows, scripts & GitHub Actions
  ┗━ 🚀  learning-challenges/    # Independent challenges & growth projects
 ```
+
+<br/>
+
+<!-- ───────────────────────────  DEV QUOTE (theme-adaptive)  ─────────────────────────── -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=light" alt="dev quote" width="80%" />
+</picture>
+
+</div>
 
 <br/>
 
@@ -236,11 +348,15 @@ Strong collaboration and clear communication matter **just as much** as technica
 <tbody>
 <tr>
 <td>💼 &nbsp; <b>Internships</b></td>
-<td>ICT, web development, UI/UX, and creative tech roles</td>
+<td>Software development, web, UI/UX, automation, and creative tech roles</td>
 </tr>
 <tr>
 <td>🤝 &nbsp; <b>Collaborations</b></td>
 <td>Technical or creative team projects, side builds, hackathons</td>
+</tr>
+<tr>
+<td>⚡ &nbsp; <b>Automation Builds</b></td>
+<td>n8n workflows, API integrations, GitHub Actions, scripted tooling</td>
 </tr>
 <tr>
 <td>🎯 &nbsp; <b>Leadership &amp; Coordination</b></td>
@@ -260,12 +376,9 @@ Strong collaboration and clear communication matter **just as much** as technica
 <div align="center">
   <br/>
   <sub>If you think there is a good fit — for work, a project, an event, or a conversation —</sub>
-  <br/>
-  <a href="https://www.linkedin.com/in/binmushan">
-    <img src="https://img.shields.io/badge/Let's%20talk%20→-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="http://wa.me/94754005152">
-    <img src="https://img.shields.io/badge/Say%20hi%20on%20WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+  <br/><br/>
+  <a href="https://www.linkedin.com/in/binmushan" target="_blank">
+    <img src="https://img.shields.io/badge/Let's%20talk%20on%20LinkedIn%20%E2%86%92-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </div>
 
@@ -275,7 +388,7 @@ Strong collaboration and clear communication matter **just as much** as technica
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:6366F1,100:0A66C2&height=120&section=footer&text=Growth%20happens%20at%20the%20edge%20of%20your%20comfort%20zone&fontSize=15&fontColor=ffffff&fontAlignY=70&desc=one%20commit%20·%20one%20event%20·%20one%20team%20at%20a%20time&descAlignY=88&descSize=11" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:06B6D4,50:6366F1,100:8B5CF6&height=120&section=footer&text=build%20%C2%B7%20design%20%C2%B7%20automate%20%C2%B7%20lead&fontSize=18&fontColor=ffffff&fontAlignY=68&desc=one%20commit%20%C2%B7%20one%20workflow%20%C2%B7%20one%20team%20at%20a%20time&descAlignY=88&descSize=11" width="100%" />
 
 <sub><strong>Bin Mushan</strong> &nbsp;·&nbsp; BSc (Hons) ICT &nbsp;·&nbsp; South Eastern University of Sri Lanka</sub>
 

@@ -1,0 +1,15 @@
+# local preview / scratch artifacts
+.preview.html
+.preview-full.png
+.preview-*.html
+.preview-*.png
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# python cache (from assets/generate_banner.py)
+__pycache__/
+*.pyc
