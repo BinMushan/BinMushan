@@ -1,82 +1,104 @@
 <div align="center">
 
-  <h1><strong>Welcome to My GitHub</strong></h1>
-  <p>
-    A learner focused on building skills through <strong>technology</strong>, <strong>creativity</strong>, and <strong>hands-on practice</strong>.
-  </p>
+# Hi there, I'm Bin Mushan 👋
+
+**ICT Undergraduate · Team Lead · Event Organizer · Continuous Learner**
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/binmushan)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mushan_mmb)
+[![Facebook](https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white)](https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi)
+[![TikTok](https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white)](https://www.tiktok.com/@mmb_mushan)
+[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](http://wa.me/94754005152)
 
 </div>
 
+---
 
-<h3>Profile Overview</h3>
+## 👨‍💻 About Me
 
-Hi, I'm **Bin Mushan**, an **ICT undergraduate** and **enthusiastic learner** actively exploring both technical and creative fields.  
-I use GitHub as a space to **learn publicly**, **practice consistently**, and **grow through real projects**.
+I'm a **BSc ICT undergraduate** at the **South Eastern University of Sri Lanka** — someone who believes the best way to learn is to *build, lead, and share*.
 
-I am open to **learning opportunities**, **internships**, **collaborative projects**, and **knowledge-sharing environments**.
+Beyond code, I've had the chance to step into **team leadership roles** and help organize events that bring people together around tech and creativity. I find that leading a team teaches you things no textbook can.
 
+- 🎯 Currently deepening my skills in **JavaFX** and full-stack web development
+- 🤝 Experienced in **leading teams** through academic projects and community initiatives
+- 🎪 Actively involved in **planning and organizing tech & creative events**
+- 🌱 I learn publicly — every repo here reflects a step forward
+- 💬 Open to conversations about tech, creativity, and collaboration
 
-<h3> Academic Background</h3>
+---
 
-* **Degree**: BSc in Information and Communication Technology  
-* **University**: South Eastern University of Sri Lanka  
+## 🛠️ Tech Stack & Tools
 
+**Web**
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=bootstrap&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 
-<h3> Skills & Learning Areas</h3>
+**Programming & Data**
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 
-Web Basics: HTML | CSS | Bootstrap | JavaScript (Basic) | Tailwind CSS | PHP (Basic)
+**Tools & Design**
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
+![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ_IDEA-000000?style=flat-square&logo=intellij-idea&logoColor=white)
+![Photoshop](https://img.shields.io/badge/Photoshop-31A8FF?style=flat-square&logo=adobe-photoshop&logoColor=white)
+![Illustrator](https://img.shields.io/badge/Illustrator-FF9A00?style=flat-square&logo=adobe-illustrator&logoColor=white)
+![Canva](https://img.shields.io/badge/Canva-00C4CC?style=flat-square&logo=canva&logoColor=white)
+![MS Office](https://img.shields.io/badge/MS_Office-D83B01?style=flat-square&logo=microsoft-office&logoColor=white)
 
-Programming & Data: C Programming | SQL | Java 
+**Currently Learning**
+![JavaFX](https://img.shields.io/badge/JavaFX-007396?style=flat-square&logo=java&logoColor=white)
 
-Tools: Canva | MS Office (Advanced) | Visual Studio Code | IntelliJ IDEA | Illuslator (AI) | Photoshop (PS) 
+---
 
-Currently Learning: JavaFX 
+## 🎪 Leadership & Events
 
+Beyond the keyboard, I've grown through hands-on experience in team settings:
 
-<h3> What You’ll Find Here</h3>
+- 👥 **Team Leadership** — Led project teams in academic and community settings, coordinating tasks, resolving blockers, and keeping everyone aligned toward shared goals
+- 📋 **Event Organization** — Planned and executed tech and creative events, handling logistics, communication, and on-the-day coordination
+- 🗣️ **Collaboration-First Mindset** — I believe the best outcomes happen when everyone on a team feels heard and empowered
 
-This GitHub profile includes:
+---
 
-* Practice projects from my ICT coursework
-* Beginner-friendly projects
-* Experiments in own learnings
-* Learning-based creative and technical work
+## 📂 What's Here
 
-My goal is to **learn by doing** and improve step by step.
+```
+📁 This profile includes
+├── 🎓  ICT coursework projects
+├── 🔧  Beginner-friendly practice builds
+├── 🎨  Creative + technical experiments
+└── 🚀  Personal learning challenges
+```
 
-<h3>Open to Opportunities</h3>
+My goal is simple: **learn by doing, improve step by step, share what I build.**
 
-I am currently seeking:
+---
 
-* Internship opportunities
-* Learning-based projects
-* Technical or creative collaborations
-* Mentorship and peer learning
+## 🤝 Open to Opportunities
 
-If you believe I could be a good fit, I’d be happy to connect.
+I'm currently looking for:
 
-<h3 align="center">Connect With Me</h3> 
+| What | Details |
+|------|---------|
+| 💼 Internships | ICT, web development, creative tech |
+| 🤝 Collaborations | Technical or creative team projects |
+| 📚 Mentorship | Happy to both learn from and support others |
+| 🎯 Leadership Roles | Team lead or coordination positions in projects/events |
+
+If you think we'd be a good fit to work or learn together, feel free to reach out — I'd love to connect!
+
+---
 
 <div align="center">
-  <a href="https://www.linkedin.com/in/binmushan" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://www.instagram.com/mushan_mmb" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
-  </a>
-  <a href="https://www.facebook.com/share/17s297jSZE/?mibextid=JRoKGi" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" />
-  </a>
-  <a href="https://www.tiktok.com/@mmb_mushan" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/TikTok-000000?style=for-the-badge&logo=tiktok&logoColor=white" />
-  </a>
-  <a href="http://wa.me/94754005152" target="_blank" rel="noopener noreferrer">
-    <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
-  </a>
-</div>
 
+*"Growth happens at the edge of your comfort zone — one commit, one event, one team at a time."*
 
-<div align="center">
-  <h3>Bin Mushan</h3>
-  <h4>ICT Undergraduate | Continuous Learner</h4>
+**Bin Mushan** · ICT Undergraduate · South Eastern University of Sri Lanka
+
 </div>
