@@ -32,7 +32,7 @@
 
 <!-- ───────────────────────────  ABOUT  ─────────────────────────── -->
 
-## &nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Waving%20Hand.png" /><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Waving%20Hand.png" width="26" /></picture> &nbsp; About Me
+## &nbsp;<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" /><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="26" /></picture> &nbsp; About Me
 
 <table>
 <tr>
@@ -56,7 +56,7 @@ fun_fact:    "I ship code, design experiences, and automate the boring parts."
 </td>
 <td valign="top" width="38%">
 
-<img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/illustrations/svg/developer.svg" width="100%" alt="developer illustration" />
+<img src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif" width="100%" alt="developer illustration" />
 
 </td>
 </tr>
@@ -66,7 +66,7 @@ fun_fact:    "I ship code, design experiences, and automate the boring parts."
 
 <!-- ───────────────────────────  CURRENTLY (signature touch)  ─────────────────────────── -->
 
-## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Sparkles.png" width="22" /> &nbsp; Currently
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Activities/Sparkles.png" width="22" /> &nbsp; Currently
 
 <table width="100%">
 <tr>
@@ -286,7 +286,7 @@ mindmap
 
 <!-- ───────────────────────────  LEADERSHIP  ─────────────────────────── -->
 
-## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/People%20Holding%20Hands.png" width="24" /> &nbsp; Leadership &amp; Community
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20activities/People%20Holding%20Hands%20Light%20Skin%20Tone.png" width="24" /> &nbsp; Leadership &amp; Community
 
 > Beyond coursework and coding, I have built practical experience in **people-focused** roles.
 
@@ -355,7 +355,7 @@ Strong collaboration and clear communication matter **just as much** as technica
 
 <!-- ───────────────────────────  OPEN TO  ─────────────────────────── -->
 
-## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Handshake.png" width="24" /> &nbsp; Open to Opportunities
+## &nbsp;<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" width="24" /> &nbsp; Open to Opportunities
 
 <table>
 <thead>
