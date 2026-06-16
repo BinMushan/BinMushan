@@ -122,6 +122,33 @@ fun_fact:    "I ship code, design experiences, and automate the boring parts."
 > Not a list of buzzwords — a live map of how the pieces of my craft connect.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "fontFamily": "JetBrains Mono, ui-monospace, SFMono-Regular, monospace",
+    "primaryColor": "#16a34a",
+    "primaryTextColor": "#f0fdf4",
+    "primaryBorderColor": "#22c55e",
+    "lineColor": "#22c55e",
+    "background": "transparent",
+    "cScale0": "#052e16",
+    "cScale1": "#14532d",
+    "cScale2": "#166534",
+    "cScale3": "#15803d",
+    "cScale4": "#16a34a",
+    "cScale5": "#22c55e",
+    "cScale6": "#4ade80",
+    "cScale7": "#86efac",
+    "cScaleLabel0": "#f0fdf4",
+    "cScaleLabel1": "#f0fdf4",
+    "cScaleLabel2": "#f0fdf4",
+    "cScaleLabel3": "#f0fdf4",
+    "cScaleLabel4": "#f0fdf4",
+    "cScaleLabel5": "#052e16",
+    "cScaleLabel6": "#052e16",
+    "cScaleLabel7": "#052e16"
+  }
+}}%%
 mindmap
   root((Bin Mushan))
     🧠 Engineer
